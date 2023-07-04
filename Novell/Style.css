@@ -1,0 +1,138 @@
+body{
+    background-image: url("ground.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: auto;
+}
+
+.add {
+    cursor: pointer;
+    color: #fff;  
+    display: inline-block;  
+    width: 150px;  
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;  
+    border-radius: 10px;
+    background-color: #3777ae; 
+}
+
+
+.header {
+    position: relative;
+    z-index: 2;
+}
+
+.download {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.img[scalable]
+{
+  cursor: pointer;
+  transition-property: max-width, max-height, left, top;
+  transition-duration: 0.3s;
+}
+
+.fito {
+    width: 70vh;
+    height: 40vh;
+}
+
+.name,.one,.index1 {
+	text-align: center;
+}
+
+/* остновновное расположение div */
+.box1 {
+    width: 70%;
+	margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    background-color: #cccccc82;
+    border-radius: 10px;
+    box-shadow: 10px 4px 12px 2px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+
+/* остновновное расположение div */
+.box3 {
+    height: 600px;
+    width: 90%;
+	margin-top: -25px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    background-color: #cccccc82;
+    border-radius: 10px;
+    box-shadow: 10px 4px 12px 2px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+
+/* пустое пространство между box */
+.space {
+    width: 70%;
+	margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    bottom: 10%;
+}
+
+
+
+
+
+
+/*----------------------------------------------*/
+/* стиль панели */
+nav {  
+    height: 40px;  
+    width: 100%;  
+    background: #384856;  
+    font-size: 11pt;  
+    font-family: 'PT Sans', Arial, sans-serif;  
+    font-weight: bold;  
+    position: relative;  
+    border-bottom: 2px solid #283744;  
+    border-radius: 10px;
+}  
+
+/* расположение текста в панели */
+nav ul {  
+    padding: 0;  
+    margin: 0 auto;  
+    width: 600px;  
+    height: 40px;  
+}  
+
+/* расположение панели */
+nav li {  
+    display: inline;  
+    float: left;  
+}  
+
+/* расположение панели */
+nav a {  
+    color: #fff;  
+    display: inline-block;  
+    width: 150px;  
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;  
+}  
+
+/* выделение */
+nav a:hover, nav a:active {  
+    background-color: #3777ae; 
+    border-radius: 10px; 
+}  
+
+
+
